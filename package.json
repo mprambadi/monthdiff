@@ -1,6 +1,6 @@
 {
   "name": "monthdiff",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "keywords": [],
   "author": "mprambadi@gmail.com",
+  "repository": {
+      "type": "github",
+      "url": "https://github.com/mprambadi/monthdiff"
+  },
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"

@@ -22,8 +22,8 @@ const calcMonth = (now = 1, month = 1) => {
  * @param {String} symbol
  */
 
-const calcMonthMod = (month = 1, monthToAdd = 1) => (symbol = "+") => {
-  return eval(`(12 + ${month} ${symbol} ${monthToAdd}) % 12`);
+const calcMonthMod = (month = 1, monthToAdd = 1) => {
+  return (12 + month + monthToAdd) % 12;
 };
 
 module.exports = { calcMonth, calcMonthMod };
